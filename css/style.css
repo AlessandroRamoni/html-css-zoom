@@ -6,7 +6,8 @@
 
 .container{
     background-color: black;
-    height: 100vh;
+    height: 90vh;
+   overflow: hidden;
 }
 
 .flex-end{
@@ -22,7 +23,7 @@ header{
 
 header h5, header span{
     color: #ffffff;
-    background-color: rgb(59, 62, 65);
+    background-color: #4a4a4a;
     margin-right: 5px;
     margin-top: 5px;
     border-radius: 5px;
@@ -31,8 +32,8 @@ header h5, header span{
 
 .container main{
     margin: 0 auto;
-    padding-top: 130px;
-    width: 85%;
+    padding-top: 60px;
+    width: 90%;
 }
 
 img{
@@ -46,7 +47,7 @@ img{
 
 .immagini span{
     color: #ffffff;
-    background-color: rgb(59, 62, 65);
+    background-color: #222222;
     border-radius: 5px;
     padding: 5px;
     position: absolute;
@@ -63,4 +64,37 @@ img{
     flex-direction: row;
     justify-content: space-around;
     gap: 5px;
+}
+
+.container main section{
+    margin-top: 10px;
+}
+
+footer{
+    background-color: #222222;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+footer div{
+    display: inline-block;
+    width: 50px;
+    color: #ffffff;
+}
+
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.flex-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
 }
