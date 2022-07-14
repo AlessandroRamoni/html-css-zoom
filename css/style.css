@@ -30,9 +30,9 @@ header h5, header span{
 }
 
 .container main{
-    max-width: 100px;
-    margin: 0;
-    padding-top: 80px;
+    margin: 0 auto;
+    padding-top: 130px;
+    width: 85%;
 }
 
 img{
@@ -41,7 +41,7 @@ img{
 }
 
 .immagini{
-    width: 200px;
+    width: 240px;
 }
 
 .immagini span{
@@ -56,4 +56,11 @@ img{
 
 .position-relative{
     position: relative;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5px;
 }
