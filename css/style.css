@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    background-color: black;
+    height: 100vh;
+}
+
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+header h5, header span{
+    color: #ffffff;
+    background-color: rgb(59, 62, 65);
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
