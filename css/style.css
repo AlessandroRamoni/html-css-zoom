@@ -28,3 +28,32 @@ header h5, header span{
     border-radius: 5px;
     padding: 5px;
 }
+
+.container main{
+    max-width: 100px;
+    margin: 0;
+    padding-top: 80px;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.immagini{
+    width: 200px;
+}
+
+.immagini span{
+    color: #ffffff;
+    background-color: rgb(59, 62, 65);
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.position-relative{
+    position: relative;
+}
