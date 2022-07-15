@@ -7,13 +7,14 @@
 .container{
     background-color: black;
     width: 95%;
-    /* overflow: hidden; */
+  
 }
 
 .bordo{
     background-color: #222222;
     width: 100%;
     padding: 10px;
+    overflow-y: hidden;
 }
 
 .flex-end{
@@ -36,6 +37,7 @@ header h5, header span{
     margin-top: 5px;
     border-radius: 5px;
     padding: 5px;
+    margin-right: 20px;
 }
 
 .container main{
@@ -43,6 +45,7 @@ header h5, header span{
     margin: 0 auto;
     padding-top: 60px;
     width: 90%;
+    
 }
 
 img{
@@ -62,6 +65,7 @@ img{
     position: absolute;
     left: 0;
     bottom: 0;
+    opacity: 0.5;
 }
 
 .position-relative{
